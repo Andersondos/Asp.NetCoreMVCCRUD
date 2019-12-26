@@ -43,8 +43,13 @@ namespace Asp.netCoreMVCCRUD.Controllers
             {
                 return RedirectToAction("index");
             }
+            else
+            {
 
-            return RedirectToAction("Login");
+                ViewBag.Message = "E-mail ou senha invalido";
+                return View("Login");
+            }
+            
 
         }
 
