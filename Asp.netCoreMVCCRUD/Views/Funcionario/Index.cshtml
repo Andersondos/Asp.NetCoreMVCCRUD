@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Asp.netCoreMVCCRUD.Models.Funcionario>
+﻿@model IEnumerable<Asp.netCoreMVCCRUD.Models.FuncionarioModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -11,6 +11,9 @@
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.NomeCompleto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.EmpCode)
@@ -31,6 +34,9 @@
         <tr>
             <td>              
                 @Html.DisplayFor(modelItem => item.NomeCompleto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.EmpCode)

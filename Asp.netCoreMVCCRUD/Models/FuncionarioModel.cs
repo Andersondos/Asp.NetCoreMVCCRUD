@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Data;
 
 namespace Asp.netCoreMVCCRUD.Models
 {
-    public class Funcionario
+    public class FuncionarioModel
     {
         [Key]
         public int FuncionarioID { get; set; }
@@ -27,5 +25,27 @@ namespace Asp.netCoreMVCCRUD.Models
 
         [Column(TypeName = "nvarchar(100)")]
         public string localizacao { get; set; }
+
+        [DisplayName("E-mail")]
+        [Required(ErrorMessage ="E-mail é Obrigatótio")]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required(ErrorMessage ="Senha é Obrigatório")]
+        [DataType(DataType.Password)]
+        public string Senha { get; set; }
+
+        [DisplayName("Lembre-me")]
+        public bool Lembreme { get; set; }
+
+
+        //public string ValidarLogin()
+        //{
+        //    FuncionarioContext obj = new FuncionarioContext();
+
+
+        //    return false;
+
+        //}
     }
 }

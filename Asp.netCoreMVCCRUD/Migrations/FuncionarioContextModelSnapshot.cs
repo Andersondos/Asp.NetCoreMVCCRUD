@@ -27,12 +27,18 @@ namespace Asp.netCoreMVCCRUD.Migrations
                     b.Property<string>("Cargo")
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("Email")
+                        .IsRequired();
+
                     b.Property<string>("EmpCode")
                         .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("NomeCompleto")
                         .IsRequired()
                         .HasColumnType("nvarchar(250)");
+
+                    b.Property<string>("Senha")
+                        .IsRequired();
 
                     b.Property<string>("localizacao")
                         .HasColumnType("nvarchar(100)");

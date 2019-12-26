@@ -32,3 +32,4 @@ C:\Users\Vector\source\repos\Asp.netCoreMVCCRUD\Asp.netCoreMVCCRUD\obj\Debug\net
 C:\Users\Vector\source\repos\Asp.netCoreMVCCRUD\Asp.netCoreMVCCRUD\obj\Debug\netcoreapp2.2\Razor\Views\Funcionario\Index.cshtml.g.cs
 C:\Users\Vector\source\repos\Asp.netCoreMVCCRUD\Asp.netCoreMVCCRUD\obj\Debug\netcoreapp2.2\Razor\Views\Funcionario\AddOrEdit.cshtml.g.cs
 C:\Users\Vector\source\repos\Asp.netCoreMVCCRUD\Asp.netCoreMVCCRUD\obj\Debug\netcoreapp2.2\Asp.netCoreMVCCRUD.csprojAssemblyReference.cache
+C:\Users\Vector\source\repos\Asp.netCoreMVCCRUD\Asp.netCoreMVCCRUD\obj\Debug\netcoreapp2.2\Razor\Views\Funcionario\Login.cshtml.g.cs
